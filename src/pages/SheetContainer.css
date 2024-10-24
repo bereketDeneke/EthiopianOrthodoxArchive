@@ -1,0 +1,60 @@
+/* Dark Theme Table Container */
+.dark-table-container {
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  background-color: #1e1e1e; /* Dark background color */
+  padding: 0px;
+  overflow-x: auto;
+}
+
+/* Dark Theme Header Cells */
+.dark-table-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff; /* White text for better contrast */
+  padding: 12px 16px;
+  background-color: #2a2a2a; /* Slightly lighter than table background */
+  text-align: left;
+}
+
+/* Dark Theme Body Cells */
+.dark-table-cell {
+  font-size: 1rem;
+  padding: 12px 16px;
+  color: #e0e0e0; /* Light grey for text */
+}
+
+/* Dark Theme Thumbnail Images */
+.dark-thumbnail-image {
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #333; /* Subtle border for dark theme */
+}
+
+/* Dark Theme Action Buttons */
+.dark-action-button {
+  font-size: 0.9rem;
+  text-transform: none;
+  background-color: #1db954; /* Spotify green */
+  color: white;
+  box-shadow: none;
+}
+
+.dark-action-button:hover {
+  background-color: #148d3d; /* Darker green on hover */
+}
+
+/* Remove borders and use alternating row background */
+.dark-table-cell, .dark-table-header {
+  border-bottom: none; /* No default table borders */
+}
+
+/* Row Background Colors for Better Contrast */
+.dark-table-row:nth-of-type(even) {
+  background-color: #252525;
+}
+
+.dark-table-row:nth-of-type(odd) {
+  background-color: #2e2e2e;
+}

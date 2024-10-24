@@ -1,0 +1,27 @@
+[
+    {
+      "eventName": "Easter",
+      "date": "04-17",
+      "description": "Easter Sunday - Christian holiday celebrating the resurrection of Jesus.",
+      "recurrence": "yearly"
+    },
+    {
+      "eventName": "Christmas",
+      "date": "12-25",
+      "description": "Christmas Day - Celebrates the birth of Jesus Christ.",
+      "recurrence": "yearly"
+    },
+    {
+      "eventName": "Monthly Team Meeting",
+      "date": "10-01",
+      "description": "First day of every month team meeting.",
+      "recurrence": "monthly"
+    },
+    {
+      "eventName": "Special Holiday",
+      "date": "10-20",
+      "description": "One-time event",
+      "recurrence": "none"
+    }
+  ]
+  

@@ -1,0 +1,107 @@
+[
+    {
+      "ColumnName": "Thumbnail",
+      "type": "image",
+      "values": [
+        "/assets/Dogma.png",
+        "webDoc/amharic/churchhistory/historytitles/abunetekelehaimanot.gif",
+        "webDoc/amharic/yesenbet/yesenbettitles/03.jpg",
+        "webDoc/amharic/yesenbet/yesenbettitles/04.jpg",
+        "webDoc/amharic/sibket/andualeme.gif",
+        "webDoc/amharic/yesenbet/yesenbettitles/05.jpg",
+        "webDoc/amharic/yesenbet/yesenbettitles/06.jpg",
+        "webDoc/amharic/sibket/yenesehatiri03.gif",
+        "webDoc/amharic/sibket/gebreselassie.gif",
+        "webDoc/amharic/sibket/yenesehatiri04.gif",
+        "webDoc/amharic/yesenbet/yesenbettitles/08.jpg",
+        "webDoc/amharic/sibket/yenesehatire02.gif",
+        "webDoc/amharic/sibket/spkr.gif",
+        "webDoc/amharic/yesenbet/yesenbettitles/02.jpg",
+        "webDoc/amharic/yesenbet/yesenbettitles/10.jpg"
+      ]
+    },
+    {
+      "ColumnName": "Artist name",
+      "type": "text",
+      "values": [
+        "Saint Yared Choir", 
+        "Poem", 
+        "Kesis Mebratu", 
+        "Abawtinsae Choir", 
+        "Kesis Melaku", 
+        "Kesis Mebratu", 
+        "Abune Teklehaimanot", 
+        "Tseyon Mariam Choir", 
+        "Gebreselassie Choir",
+        "Andualem Sisay",
+        "Kesis Yohannes",
+        "Kidus Yared",
+        "Zebene Lemma",
+        "Emperor Menelik",
+        "Tsehay Choir"
+      ]
+    },
+    {
+      "ColumnName": "Title",
+      "type": "text",
+      "values": [
+        "Saint Yared Choir", 
+        "Yeemenet Arebegna", 
+        "Hosanna - Kesis Mebratu", 
+        "Kidus Yohannes", 
+        "Kirstinachin Bealemfit", 
+        "Yegeta Lidete", 
+        "Yegeta Timket",
+        "Tseyon Mariam 01", 
+        "Yeneseha Tiri 03", 
+        "Yegeta Metekleya", 
+        "Metshaf Kidus",
+        "Nikodimus", 
+        "Yemesihu Timertoch", 
+        "Emperor Menelik Final", 
+        "Yihenen Gubae"
+      ]
+    },
+    {
+      "ColumnName": "Category",
+      "type": "text",
+      "values": [
+        "Fasting", 
+        "Poem", 
+        "Church Songs", 
+        "Religious Teachings", 
+        "Spiritual Songs", 
+        "Festivals", 
+        "Holy Days", 
+        "Religious Celebrations", 
+        "Liturgy", 
+        "Religious Narratives", 
+        "Church Events",
+        "Spiritual Narrations", 
+        "Teachings", 
+        "Historical Speeches", 
+        "Festive Songs"
+      ]
+    },
+    {
+      "ColumnName": "Action",
+      "type": "text",
+      "values": [
+        "webDoc/churchmusic/ethiopia hoi/Ethiopia Hoi Final with Vocal.mp3",
+        "webDoc/amharic/archivee/poems/yeemenet arebegna.m4a",
+        "webDoc/amharic/sibket/kesis mebratu/Hosanna_kesis mebratu.mp3",
+        "webDoc/amharic/sibket/abawtinsae/Kidus Yohannes.mp3",
+        "webDoc/amharic/sibket/kesismelaku/kirstinachinbealemfit.mp3",
+        "webDoc/amharic/sibket/abawtinsae/Yegeta lidet.mp3",
+        "webDoc/amharic/sibket/abawtinsae/Yegeta Timket.mp3",
+        "webDoc/amharic/sibket/abawtinsae/TseyonMariam01.mp3",
+        "webDoc/amharic/sibket/abawtinsae/yenesehatiri03.mp3",
+        "webDoc/amharic/sibket/abawtinsae/yegeta metekleya.mp3",
+        "webDoc/amharic/sibket/kesis mebratu/metshafe kidus minden new week 2 May 21.mp3",
+        "webDoc/amharic/sibket/kesismelaku/nikodimus.wma",
+        "webDoc/amharic/sibket/kesis mebratu/yemesihu timertoch week 9- july8.mp3",
+        "webDoc/amharic/tereka/Emperor menelik_final_26-Dec-2020.mp3",
+        "webDoc/amharic/yesenbet/yihenen gubae.mp3"
+      ]
+    }
+]

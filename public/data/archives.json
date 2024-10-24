@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Canonical Books",
+      "thumbnail": "./assets/canonical.png"
+    },
+    {
+      "title": "Church Music History",
+      "thumbnail": "./assets/mezmure.png"
+    },
+    {
+      "title": "Dogma and Doctrine",
+      "thumbnail": "./assets/Dogma.png"
+    },
+    {
+      "title": "Church History",
+      "thumbnail": "./assets/churchHistory.png"
+    }
+  ]
+  

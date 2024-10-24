@@ -1,0 +1,28 @@
+/* Quote.css */
+
+.quote-container {
+    position: fixed;
+    bottom: 20px; /* Position at the bottom with some padding */
+    left: 50%; /* Move to the center horizontally */
+    transform: translateX(-50%); /* Center the quote horizontally */
+    text-align: center;
+    width: 100%;
+  }
+  
+  .quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555; /* Grey color for a subtle look */
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px;
+    display: inline-block; /* Makes the quote adjust to its content size */
+  }
+  
+  .reference {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333; /* Slightly darker color for reference */
+  }
+  

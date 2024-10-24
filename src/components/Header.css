@@ -1,0 +1,54 @@
+/* Full Header Wrapper */
+.header_container {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    overflow: visible; /* Ensure stars are fully visible */
+  }
+  
+  /* Sprinkling stars effect with gradient */
+  .stars-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow interactions through the stars */
+    z-index: 0; /* Ensure stars stay behind the content but are visible */
+    overflow: hidden;
+  }
+  
+  /* Star properties with gradient opacity */
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: #1e88e5; /* Tiny blue stars */
+    border-radius: 50%;
+    animation: twinkle 3s infinite ease-in-out;
+    opacity: calc(1 - var(--star-opacity)); /* Stars fade away from bottom-left */
+    box-shadow: 0 0 6px rgba(30, 136, 229, 0.7);
+    top: calc(100% * var(--star-top)); /* Random top position */
+    left: calc(100% * var(--star-left)); /* Random left position */
+    transform: translate(-50%, -50%) rotate(45deg); /* Rotate stars along 45 degrees */
+  }
+  
+  /* CSS Variables to randomize star positions */
+  .star:nth-child(1) { --star-top: 0.9; --star-left: 0.1; --star-opacity: 0.0; }
+  .star:nth-child(2) { --star-top: 0.8; --star-left: 0.2; --star-opacity: 0.1; }
+  .star:nth-child(3) { --star-top: 0.7; --star-left: 0.3; --star-opacity: 0.2; }
+  .star:nth-child(4) { --star-top: 0.6; --star-left: 0.4; --star-opacity: 0.3; }
+  .star:nth-child(5) { --star-top: 0.5; --star-left: 0.5; --star-opacity: 0.4; }
+  .star:nth-child(6) { --star-top: 0.4; --star-left: 0.6; --star-opacity: 0.5; }
+  /* Continue similar random positions up to nth-child(100) */
+  
+  @keyframes twinkle {
+    0%, 100% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.3);
+    }
+  }
+  
